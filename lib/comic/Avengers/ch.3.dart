@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:hci/page/menuPage/vader/Drawerpage.1.dart';
 import 'package:hci/SecondPage.dart';
-class Ch2AG extends StatelessWidget{
+class Ch3AG extends StatelessWidget{
   
   @override
   Widget build(BuildContext context) {
