@@ -19,7 +19,7 @@ class NewComic extends StatefulWidget {
 class _SearchListState extends State<NewComic>
 {
   Widget appBarTitle = Text("New Comic");
-  Icon actionIcon = new Icon(Icons.search, color: Colors.white,);
+  Icon actionIcon = new Icon(Icons.home, color: Colors.white,);
   final key = new GlobalKey<ScaffoldState>();
   final TextEditingController _searchQuery = new TextEditingController();
   List<String> _list;

@@ -1,13 +1,23 @@
 import 'package:flutter/material.dart';
-import 'package:hci/page/Drawerpage.dart';
+import 'package:hci/SecondPage.dart';
 class DV extends StatelessWidget{
   
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      drawer: Drawerpage(),
+      
       appBar: AppBar(
-        title: Text("Comic Update"),
+        title: Text("Dart Vader (2017)"),
+        backgroundColor: Colors.purple,
+        actions: <Widget>[
+            // action button
+            IconButton( 
+              icon: Icon(Icons.home),
+              onPressed: () {
+                Navigator.push(context, new MaterialPageRoute(builder: (context) => new SecondPage()));
+              },
+            ),
+        ],
       ),
       body: Center(
         child: Text("Page2")
