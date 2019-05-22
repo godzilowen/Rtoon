@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:hci/comic/dartvader/ch24.dart';
+import 'package:hci/comic/DarthVader/ch24.dart';
 // import 'package:hci/comic/dartvader/ch25.dart';
 
 class DrawerVader extends StatelessWidget{
