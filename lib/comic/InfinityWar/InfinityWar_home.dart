@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:hci/page/Drawerpage.dart';
-class Page2 extends StatelessWidget{
+class IW extends StatelessWidget{
   
   @override
   Widget build(BuildContext context) {

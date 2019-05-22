@@ -15,13 +15,13 @@ class Drawerpage extends StatelessWidget{
           ListTile(
             title: Text("New Comic" ,style: TextStyle(fontWeight:  FontWeight.w100,fontSize: 40 ,backgroundColor: Colors.cream)),
             onTap: (){
-              Navigator.push(context, new MaterialPageRoute(builder: (context) => new PageOne()));
+              Navigator.push(context, new MaterialPageRoute(builder: (context) => new NewComic()));
             },
           ),
           ListTile(
             title: Text("Comic Update" ,style: TextStyle(fontWeight:  FontWeight.w100,fontSize: 40 ,backgroundColor: Colors.cream)),
             onTap: (){
-              Navigator.push(context, new MaterialPageRoute(builder: (context) => new Page2()));
+              Navigator.push(context, new MaterialPageRoute(builder: (context) => new ComicUpdate()));
             },
           ),
         ],
