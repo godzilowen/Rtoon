@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:hci/comic/DarthVader/ch24.dart';
+import 'package:hci/comic/DarthVader/ch25.dart';
 // import 'package:hci/comic/dartvader/ch25.dart';
 
 class DrawerVader extends StatelessWidget{
@@ -20,7 +21,7 @@ class DrawerVader extends StatelessWidget{
           ),ListTile(
             title: Text("Issue #25" ,style: TextStyle(fontWeight:  FontWeight.w100,fontSize: 20 ,backgroundColor: Colors.cream)),
             onTap: (){
-              // Navigator.push(context, new MaterialPageRoute(builder: (context) => new PageOne()));
+              Navigator.push(context, new MaterialPageRoute(builder: (context) => new Ch25()));
             },
           ),
           ListTile(
