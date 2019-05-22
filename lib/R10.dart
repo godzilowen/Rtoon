@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:hci/SecondPage.dart';
-// import 'package:hci/SecondPage.dart';
-import 'package:hci/comic/darthvader/ch24.dart';
+
 
 
 
@@ -32,9 +31,10 @@ class HomePageState extends State<R10> with TickerProviderStateMixin {
             constraints: BoxConstraints.expand(),
             child: FlatButton(
               onPressed: () async {
-                await Navigator.push(context, MaterialPageRoute(builder: (context) => new Ch24() ));
+                // await Navigator.push(context, MaterialPageRoute(builder: (context) => new Ch24() ));
+              await Navigator.push(context, MaterialPageRoute(builder: (context) => new SecondPage() ));
               },
-                // await Navigator.push(context, MaterialPageRoute(builder: (context) => new SecondPage() ));
+
               padding: EdgeInsets.all(0.0),
               child: Image.asset('assets/images/r10.png'), 
             ),
