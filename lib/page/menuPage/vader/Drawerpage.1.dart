@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:hci/comic/dartvader/ch24.dart';
+import 'package:hci/comic/DarthVader/ch24.dart';
+import 'package:hci/comic/DarthVader/ch25.dart';
 // import 'package:hci/comic/dartvader/ch25.dart';
 
 class DrawerVader extends StatelessWidget{
@@ -13,14 +14,14 @@ class DrawerVader extends StatelessWidget{
           title: Text("Dart Vader (2017)" , style: TextStyle(fontWeight:  FontWeight.w300 ,fontSize: 30) ),backgroundColor: Colors.purple,
           ),
           ListTile(
-            title: Text("Homepage" ,style: TextStyle(fontWeight:  FontWeight.w100,fontSize: 20 ,backgroundColor: Colors.cream)),
+            title: Text("Dart Vader Homepage " ,style: TextStyle(fontWeight:  FontWeight.w100,fontSize: 20 ,backgroundColor: Colors.cream)),
             onTap: (){
               // Navigator.push(context, new MaterialPageRoute(builder: (context) => new PageOne()));
             },
           ),ListTile(
             title: Text("Issue #25" ,style: TextStyle(fontWeight:  FontWeight.w100,fontSize: 20 ,backgroundColor: Colors.cream)),
             onTap: (){
-              // Navigator.push(context, new MaterialPageRoute(builder: (context) => new PageOne()));
+              Navigator.push(context, new MaterialPageRoute(builder: (context) => new Ch25()));
             },
           ),
           ListTile(
@@ -29,6 +30,51 @@ class DrawerVader extends StatelessWidget{
               Navigator.push(context, new MaterialPageRoute(builder: (context) => new Ch24()));
             },
           ),
+          ListTile(
+            title: Text("Issue #23" ,style: TextStyle(fontWeight:  FontWeight.w100,fontSize: 20 ,backgroundColor: Colors.cream)),
+            onTap: (){
+              // Navigator.push(context, new MaterialPageRoute(builder: (context) => new PageOne()));
+            },
+          ),
+          ListTile(
+            title: Text("Issue #22" ,style: TextStyle(fontWeight:  FontWeight.w100,fontSize: 20 ,backgroundColor: Colors.cream)),
+            onTap: (){
+              // Navigator.push(context, new MaterialPageRoute(builder: (context) => new PageOne()));
+            },
+          ),
+          ListTile(
+            title: Text("Issue #21" ,style: TextStyle(fontWeight:  FontWeight.w100,fontSize: 20 ,backgroundColor: Colors.cream)),
+            onTap: (){
+              // Navigator.push(context, new MaterialPageRoute(builder: (context) => new PageOne()));
+            },
+          ),
+          ListTile(
+            title: Text("Issue #20" ,style: TextStyle(fontWeight:  FontWeight.w100,fontSize: 20 ,backgroundColor: Colors.cream)),
+            onTap: (){
+              // Navigator.push(context, new MaterialPageRoute(builder: (context) => new PageOne()));
+            },
+          ),
+          ListTile(
+            title: Text("Issue #19" ,style: TextStyle(fontWeight:  FontWeight.w100,fontSize: 20 ,backgroundColor: Colors.cream)),
+            onTap: (){
+              // Navigator.push(context, new MaterialPageRoute(builder: (context) => new PageOne()));
+            },
+          ),
+          ListTile(
+            title: Text("Issue #18" ,style: TextStyle(fontWeight:  FontWeight.w100,fontSize: 20 ,backgroundColor: Colors.cream)),
+            onTap: (){
+              // Navigator.push(context, new MaterialPageRoute(builder: (context) => new PageOne()));
+            },
+          ),
+          ListTile(
+            title: Text("Issue #17" ,style: TextStyle(fontWeight:  FontWeight.w100,fontSize: 20 ,backgroundColor: Colors.cream)),
+            onTap: (){
+              // Navigator.push(context, new MaterialPageRoute(builder: (context) => new PageOne()));
+            },
+          ),
+          
+
+          
         ],
       ),
     

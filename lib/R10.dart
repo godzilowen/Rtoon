@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:hci/SecondPage.dart';
 // import 'package:hci/SecondPage.dart';
-import 'package:hci/comic/dartvader/ch24.dart';
+import 'package:hci/comic/darthvader/ch24.dart';
 
 
 
