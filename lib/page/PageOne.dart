@@ -8,9 +8,7 @@ import 'package:hci/comic/InfinityWar/InfinityWar_home.dart';
 import 'package:hci/comic/OnePiece/OnePiece_home.dart';
 import 'package:hci/comic/OnePunchMan/OnePunchMan_home.dart';
 import 'package:hci/comic/CaptainMarvel/CaptainMarvel_home.dart';
-import 'package:hci/page/PageOne.dart';
-import 'package:hci/page/Page2.dart';
-
+import 'package:hci/SecondPage.dart';
 class NewComic extends StatefulWidget {
   NewComic({ Key key }) : super(key: key);
   @override
@@ -279,27 +277,7 @@ class _SearchListState extends State<NewComic>
         backgroundColor: Colors.lightBlueAccent,
         actions: <Widget>[
           new IconButton(icon: actionIcon, onPressed: () {
-            setState(() {
-              if (this.actionIcon.icon == Icons.search) {
-                this.actionIcon = new Icon(Icons.close, color: Colors.white,);
-                this.appBarTitle = new TextField(
-                  controller: _searchQuery,
-                  style: new TextStyle(
-                    color: Colors.white,
-
-                  ),
-                  decoration: new InputDecoration(
-                      prefixIcon: new Icon(Icons.search, color: Colors.white),
-                      hintText: "Search....",
-                      hintStyle: new TextStyle(color: Colors.white)
-                  ),
-                );
-                _handleSearchStart();
-              }
-              else {
-                _handleSearchEnd();
-              }
-            });
+            Navigator.push(context, new MaterialPageRoute(builder: (context) => new SecondPage()));
           },),
         ]
     );

@@ -8,8 +8,8 @@ import 'package:hci/comic/InfinityWar/InfinityWar_home.dart';
 import 'package:hci/comic/OnePiece/OnePiece_home.dart';
 import 'package:hci/comic/OnePunchMan/OnePunchMan_home.dart';
 import 'package:hci/comic/CaptainMarvel/CaptainMarvel_home.dart';
-import 'package:hci/page/PageOne.dart';
-import 'package:hci/page/Page2.dart';
+import 'package:hci/SecondPage.dart';
+
 
 class ComicUpdate extends StatefulWidget {
   ComicUpdate({ Key key }) : super(key: key);
@@ -21,7 +21,7 @@ class ComicUpdate extends StatefulWidget {
 class _SearchListState extends State<ComicUpdate>
 {
   Widget appBarTitle = Text("Comic Update");
-  Icon actionIcon = new Icon(Icons.search, color: Colors.white,);
+  Icon actionIcon = new Icon(Icons.home, color: Colors.white,);
   final key = new GlobalKey<ScaffoldState>();
   final TextEditingController _searchQuery = new TextEditingController();
   List<String> _list;
@@ -277,27 +277,7 @@ class _SearchListState extends State<ComicUpdate>
         backgroundColor: Colors.greenAccent,
         actions: <Widget>[
           new IconButton(icon: actionIcon, onPressed: () {
-            setState(() {
-              if (this.actionIcon.icon == Icons.search) {
-                this.actionIcon = new Icon(Icons.close, color: Colors.white,);
-                this.appBarTitle = new TextField(
-                  controller: _searchQuery,
-                  style: new TextStyle(
-                    color: Colors.white,
-
-                  ),
-                  decoration: new InputDecoration(
-                      prefixIcon: new Icon(Icons.search, color: Colors.white),
-                      hintText: "Search....",
-                      hintStyle: new TextStyle(color: Colors.white)
-                  ),
-                );
-                _handleSearchStart();
-              }
-              else {
-                _handleSearchEnd();
-              }
-            });
+             Navigator.push(context, new MaterialPageRoute(builder: (context) => new SecondPage()));
           },),
         ]
     );

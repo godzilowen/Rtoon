@@ -11,7 +11,7 @@ class Ch24 extends StatelessWidget{
         title:  Text("Dart Vader (2017) Issue #24", style: TextStyle(fontWeight:  FontWeight.w500 ,fontSize: 17)),backgroundColor: Colors.purple,
         actions: <Widget>[
             // action button
-            IconButton(
+            IconButton( 
               icon: Icon(Icons.home),
               onPressed: () {
                 Navigator.push(context, new MaterialPageRoute(builder: (context) => new SecondPage()));
