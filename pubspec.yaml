@@ -42,6 +42,30 @@ flutter:
   assets:
     - assets/images/
     - assets/images/DarthVader/01/
+    - assets/images/DarthVader/02/
+    - assets/images/Avengers/01/
+    - assets/images/Avengers/02/
+    - assets/images/Avengers/03/
+    - assets/images/CaptainMarvel/01/
+    - assets/images/HeroAcademia/01/
+    - assets/images/HeroAcademia/02/
+    - assets/images/HeroAcademia/03/
+    - assets/images/InfinityWar/01/
+    - assets/images/InfinityWar/02/
+    - assets/images/OnePiece/01/
+    - assets/images/OnePiece/02/
+    - assets/images/OnePiece/03/
+    - assets/images/OnePiece/04/
+    - assets/images/OnePiece/05/
+    - assets/images/OnePiece/06/
+    - assets/images/OnePunchMan/01/
+    - assets/images/OnePunchMan/02/
+    - assets/images/OnePunchMan/03/
+    - assets/images/OnePunchMan/04/
+    - assets/images/OnePunchMan/05/
+    - assets/images/OnePunchMan/06/
+    - assets/images/SpiderMan/01/
+    - assets/images/SpiderMan/02/
 
   # To add assets to your application, add an assets section, like this:
   # assets:
