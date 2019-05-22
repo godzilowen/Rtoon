@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:hci/page/menuPage/vader/Drawerpage.1.dart';
+import 'package:hci/SecondPage.dart';
 class Ch24 extends StatelessWidget{
   
   @override
@@ -7,7 +8,16 @@ class Ch24 extends StatelessWidget{
     return Scaffold(
       drawer: DrawerVader(),
       appBar: AppBar(
-        title: Text("Dart Vader (2017) Issue #24"),backgroundColor: Colors.purple,
+        title:  Text("Dart Vader (2017) Issue #24", style: TextStyle(fontWeight:  FontWeight.w500 ,fontSize: 17)),backgroundColor: Colors.purple,
+        actions: <Widget>[
+            // action button
+            IconButton(
+              icon: Icon(Icons.home),
+              onPressed: () {
+                Navigator.push(context, new MaterialPageRoute(builder: (context) => new SecondPage()));
+              },
+            ),
+        ],
       ),
       body: ListView(
           children: <Widget>[
