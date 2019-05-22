@@ -229,7 +229,7 @@ Widget page37 = Container(
 );
 
 Widget page38 = Container(
-  child: Image.asset('assets/images/HeroAcademia/01/039.jpg'),
+  child: Image.asset('assets/images/HeroAcademia/01/038.jpg'),
 );
 
 Widget page39 = Container(

@@ -56,7 +56,7 @@ Widget page1 = Container(
 );
 
 Widget page2 = Container(
-  child: Image.asset('assets/images/HeroAcademia/03/boku-no-hero-academia-2_CartoonClub-TH-003.jpg'),
+  child: Image.asset('assets/images/HeroAcademia/03/boku-no-hero-academia-2_CartoonClub-TH-002.jpg'),
 );
 
 Widget page3 = Container(
@@ -128,19 +128,19 @@ Widget page19 = Container(
 );
 
 Widget page20 = Container(
-  child: Image.asset('assets/images/HeroAcademia/03/boku-no-hero-academia-2_CartoonClub-TH-030.jpg'),
+  child: Image.asset('assets/images/HeroAcademia/03/boku-no-hero-academia-2_CartoonClub-TH-020.jpg'),
 );
 
 Widget page21 = Container(
-  child: Image.asset('assets/images/HeroAcademia/03/boku-no-hero-academia-2_CartoonClub-TH-031.jpg'),
+  child: Image.asset('assets/images/HeroAcademia/03/boku-no-hero-academia-2_CartoonClub-TH-021.jpg'),
 );
 
 Widget page22 = Container(
-  child: Image.asset('assets/images/HeroAcademia/03/boku-no-hero-academia-2_CartoonClub-TH-032.jpg'),
+  child: Image.asset('assets/images/HeroAcademia/03/boku-no-hero-academia-2_CartoonClub-TH-022.jpg'),
 );
 
 Widget page23 = Container(
-  child: Image.asset('assets/images/HeroAcademia/03/boku-no-hero-academia-2_CartoonClub-TH-033.jpg'),
+  child: Image.asset('assets/images/HeroAcademia/03/boku-no-hero-academia-2_CartoonClub-TH-023.jpg'),
 );
 
 
