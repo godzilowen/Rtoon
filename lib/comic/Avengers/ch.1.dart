@@ -8,7 +8,7 @@ class Ch1AG extends StatelessWidget{
     return Scaffold(
       drawer: DrawerVader(),
       appBar: AppBar(
-        title:  Text("Avengers Infinity War Prelude Issue #1", style: TextStyle(fontWeight:  FontWeight.w500 ,fontSize: 17)),backgroundColor: Colors.purple,
+        title:  Text("Marvel Avengers Issue #1", style: TextStyle(fontWeight:  FontWeight.w500 ,fontSize: 17)),backgroundColor: Colors.purple,
         actions: <Widget>[
             // action button
             IconButton(
