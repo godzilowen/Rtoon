@@ -276,7 +276,7 @@ class _SearchListState extends State<NewComic>
     return new AppBar(
         centerTitle: true,
         title: appBarTitle,
-        backgroundColor: Colors.purple,
+        backgroundColor: Colors.lightBlueAccent,
         actions: <Widget>[
           new IconButton(icon: actionIcon, onPressed: () {
             setState(() {
