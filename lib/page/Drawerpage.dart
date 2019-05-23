@@ -10,20 +10,21 @@ class Drawerpage extends StatelessWidget{
       child: Column(
         children: <Widget>[
           AppBar(automaticallyImplyLeading: false,
-          title: Text("MENU" , style: TextStyle(fontWeight:  FontWeight.w300 ,fontSize: 50) ),backgroundColor: Colors.purple,
-          ),
+          title: Text("MENU" , style: TextStyle(fontWeight:  FontWeight.w300 ,fontSize: 30) ),backgroundColor: Colors.purple,
+          ),new Divider(),
           ListTile(
             title: Text("New Comic" ,style: TextStyle(fontWeight:  FontWeight.w100,fontSize: 40 ,backgroundColor: Colors.cream)),
             onTap: (){
               Navigator.push(context, new MaterialPageRoute(builder: (context) => new NewComic()));
             },
-          ),
+          ),new Divider(),
           ListTile(
             title: Text("Comic Update" ,style: TextStyle(fontWeight:  FontWeight.w100,fontSize: 40 ,backgroundColor: Colors.cream)),
             onTap: (){
               Navigator.push(context, new MaterialPageRoute(builder: (context) => new ComicUpdate()));
             },
           ),
+          new Divider(),
         ],
       ),
     

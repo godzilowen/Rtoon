@@ -150,7 +150,7 @@ class _SearchListState extends State<SecondPage>
             Padding(padding: EdgeInsets.all(5), 
               child: RaisedButton(
                         padding: EdgeInsets.all(0.0),
-                        child: Text('MORE ...',style: TextStyle(fontSize: 18 , color: Colors.white)),
+                        child: Text('SEE MORE',style: TextStyle(fontSize: 18 , color: Colors.white)),
                         onPressed: () async {
                             await Navigator.push(context, MaterialPageRoute(builder: (context) => new NewComic()  ));
                           },
@@ -235,7 +235,7 @@ class _SearchListState extends State<SecondPage>
             Padding(padding: EdgeInsets.all(5), 
               child: RaisedButton(
                         padding: EdgeInsets.all(0.0),
-                        child: Text('MORE ...',style: TextStyle(fontSize: 18,color: Colors.white)),
+                        child: Text('SEE MORE',style: TextStyle(fontSize: 18,color: Colors.white)),
                         onPressed: () async {
                             await Navigator.push(context, MaterialPageRoute(builder: (context) => new ComicUpdate()  ));
                           },color: Colors.greenAccent,

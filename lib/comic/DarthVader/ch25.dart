@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:hci/page/menuPage/vader/Drawerpage.1.dart';
+import 'package:hci/page/menuPage/Drawerpage.1.dart';
 import 'package:hci/SecondPage.dart';
 class Ch25 extends StatelessWidget{
   

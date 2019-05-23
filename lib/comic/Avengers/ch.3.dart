@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:hci/page/menuPage/vader/Drawerpage.1.dart';
+import 'package:hci/page/menuPage/Drawerpage.8.dart';
 import 'package:hci/SecondPage.dart';
 class Ch3AG extends StatelessWidget{
   
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      drawer: DrawerVader(),
+      drawer: EndG(),
       appBar: AppBar(
         title:  Text("Marvel Avengers Issue #3", style: TextStyle(fontWeight:  FontWeight.w500 ,fontSize: 17)),backgroundColor: Colors.purple,
         actions: <Widget>[

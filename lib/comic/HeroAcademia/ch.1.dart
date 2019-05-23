@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:hci/page/menuPage/vader/Drawerpage.1.dart';
+import 'package:hci/page/menuPage/Drawerpage.6.dart';
 import 'package:hci/SecondPage.dart';
 class Ch1Hero extends StatelessWidget{
   
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      drawer: DrawerVader(),
+      drawer: Academia(),
       appBar: AppBar(
         title:  Text("Boku no Hero Academia Issue #1", style: TextStyle(fontWeight:  FontWeight.w500 ,fontSize: 17)),backgroundColor: Colors.purple,
         actions: <Widget>[

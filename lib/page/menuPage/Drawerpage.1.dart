@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:hci/comic/DarthVader/ch24.dart';
 import 'package:hci/comic/DarthVader/ch25.dart';
+import 'package:hci/comic/DarthVader/dartvader_home.dart';
 // import 'package:hci/comic/dartvader/ch25.dart';
 
 class DrawerVader extends StatelessWidget{
@@ -12,13 +13,13 @@ class DrawerVader extends StatelessWidget{
         children: <Widget>[
           AppBar(automaticallyImplyLeading: false,
           title: Text("Dart Vader (2017)" , style: TextStyle(fontWeight:  FontWeight.w300 ,fontSize: 30) ),backgroundColor: Colors.purple,
-          ),
+          ),new Divider(),
           ListTile(
-            title: Text("Dart Vader Homepage " ,style: TextStyle(fontWeight:  FontWeight.w100,fontSize: 20 ,backgroundColor: Colors.cream)),
+            title: Text("DarthVader: Homepage " ,style: TextStyle(fontWeight:  FontWeight.w100,fontSize: 20 ,backgroundColor: Colors.cream)),
             onTap: (){
-              // Navigator.push(context, new MaterialPageRoute(builder: (context) => new PageOne()));
+              Navigator.push(context, new MaterialPageRoute(builder: (context) => new DV()));
             },
-          ),ListTile(
+          ),new Divider(),ListTile(
             title: Text("Issue #25" ,style: TextStyle(fontWeight:  FontWeight.w100,fontSize: 20 ,backgroundColor: Colors.cream)),
             onTap: (){
               Navigator.push(context, new MaterialPageRoute(builder: (context) => new Ch25()));

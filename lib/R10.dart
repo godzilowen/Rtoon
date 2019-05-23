@@ -36,7 +36,7 @@ class HomePageState extends State<R10> with TickerProviderStateMixin {
               },
 
               padding: EdgeInsets.all(0.0),
-              child: Image.asset('assets/images/r10.png'), 
+              child: Image.asset('assets/images/r10.jpg'), 
             ),
           ),
         ),
