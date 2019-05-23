@@ -17,7 +17,7 @@ class Infinity extends StatelessWidget{
             title: Text("InfinityWar: Homepage " ,style: TextStyle(fontWeight:  FontWeight.w100,fontSize: 20 ,backgroundColor: Colors.cream)),
             onTap: (){
               Navigator.push(context, new MaterialPageRoute(builder: (context) => new IW()));
-            },
+            },trailing: new Icon(Icons.book),
           ),new Divider(),ListTile(
             title: Text("Issue #2" ,style: TextStyle(fontWeight:  FontWeight.w100,fontSize: 20 ,backgroundColor: Colors.cream)),
             onTap: (){

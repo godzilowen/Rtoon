@@ -18,10 +18,10 @@ class OPP extends StatelessWidget{
       child: Column(
         children: <Widget>[
           AppBar(automaticallyImplyLeading: false,
-          title: Text("Dart Vader (2017)" , style: TextStyle(fontWeight:  FontWeight.w300 ,fontSize: 30) ),backgroundColor: Colors.purple,
+          title: Text("One Piece" , style: TextStyle(fontWeight:  FontWeight.w300 ,fontSize: 30) ),backgroundColor: Colors.purple,
           ),new Divider(),
           ListTile(
-            title: Text("Dart Vader Homepage " ,style: TextStyle(fontWeight:  FontWeight.w100,fontSize: 20 ,backgroundColor: Colors.cream)),
+            title: Text("OnePiece: Homepage " ,style: TextStyle(fontWeight:  FontWeight.w100,fontSize: 20 ,backgroundColor: Colors.cream)),
             onTap: (){
               Navigator.push(context, new MaterialPageRoute(builder: (context) => new OP()));
             },

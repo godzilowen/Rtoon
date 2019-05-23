@@ -18,24 +18,24 @@ class EndG extends StatelessWidget{
             title: Text("Avengers: Homepage " ,style: TextStyle(fontWeight:  FontWeight.w100,fontSize: 20 ,backgroundColor: Colors.cream)),
             onTap: (){
                Navigator.push(context, new MaterialPageRoute(builder: (context) => new AVG()));
-            },
+            },trailing: new Icon(Icons.arrow_left),
           ),new Divider(),ListTile(
             title: Text("Issue #3" ,style: TextStyle(fontWeight:  FontWeight.w100,fontSize: 20 ,backgroundColor: Colors.cream)),
             onTap: (){
               Navigator.push(context, new MaterialPageRoute(builder: (context) => new Ch3AG()));
-            },
+            },trailing: new Icon(Icons.book),
           ),
           ListTile(
             title: Text("Issue #2" ,style: TextStyle(fontWeight:  FontWeight.w100,fontSize: 20 ,backgroundColor: Colors.cream)),
             onTap: (){
               Navigator.push(context, new MaterialPageRoute(builder: (context) => new Ch2AG()));
-            },
+            },trailing: new Icon(Icons.book),
           ),
           ListTile(
             title: Text("Issue #1" ,style: TextStyle(fontWeight:  FontWeight.w100,fontSize: 20 ,backgroundColor: Colors.cream)),
             onTap: (){
               Navigator.push(context, new MaterialPageRoute(builder: (context) => new Ch1AG()));
-            },
+            },trailing: new Icon(Icons.book),
           ),new Divider(),
           
 
