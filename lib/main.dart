@@ -39,7 +39,7 @@ class MyApp extends StatelessWidget {
 //           constraints: BoxConstraints.expand(),
 //           padding: EdgeInsets.all(0.0),
 //           child: Image.asset('assets/images/rtoon.png'),
-//           color: Colors.cream,
+//           color: Colors.yellowAccent[700],
           
           
 //         ),

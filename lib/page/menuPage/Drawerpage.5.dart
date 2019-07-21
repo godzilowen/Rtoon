@@ -14,18 +14,18 @@ class Infinity extends StatelessWidget{
           title: Text("Avengers: Infinity War Prelude" , style: TextStyle(fontWeight:  FontWeight.w300 ,fontSize: 30) ),backgroundColor: Colors.purple,
           ),new Divider(),
           ListTile(
-            title: Text("InfinityWar: Homepage " ,style: TextStyle(fontWeight:  FontWeight.w100,fontSize: 20 ,backgroundColor: Colors.cream)),
+            title: Text("InfinityWar: Homepage " ,style: TextStyle(fontWeight:  FontWeight.w100,fontSize: 20 ,backgroundColor: Colors.yellowAccent[700])),
             onTap: (){
               Navigator.push(context, new MaterialPageRoute(builder: (context) => new IW()));
             },trailing: new Icon(Icons.book),
           ),new Divider(),ListTile(
-            title: Text("Issue #2" ,style: TextStyle(fontWeight:  FontWeight.w100,fontSize: 20 ,backgroundColor: Colors.cream)),
+            title: Text("Issue #2" ,style: TextStyle(fontWeight:  FontWeight.w100,fontSize: 20 ,backgroundColor: Colors.yellowAccent[700])),
             onTap: (){
               Navigator.push(context, new MaterialPageRoute(builder: (context) => new Ch2InFW()));
             },
           ),
           ListTile(
-            title: Text("Issue #1" ,style: TextStyle(fontWeight:  FontWeight.w100,fontSize: 20 ,backgroundColor: Colors.cream)),
+            title: Text("Issue #1" ,style: TextStyle(fontWeight:  FontWeight.w100,fontSize: 20 ,backgroundColor: Colors.yellowAccent[700])),
             onTap: (){
               Navigator.push(context, new MaterialPageRoute(builder: (context) => new Ch1InFW()));
             },

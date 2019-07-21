@@ -71,7 +71,7 @@ class _SearchListState extends State<ComicUpdate>
       drawer: Drawerpage(),
       key: key,
       appBar: buildBar(context),
-      backgroundColor: Colors.cream,
+      backgroundColor: Colors.yellowAccent[700],
       body:ListView(
           children: <Widget>[
             Padding(padding: EdgeInsets.all(5), 

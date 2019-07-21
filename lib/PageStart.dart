@@ -24,7 +24,7 @@ class HomePageState extends State<PageStart> with TickerProviderStateMixin {
         //   )
         // )
         body: Container(
-          color: Colors.cream,
+          color: Colors.yellowAccent[700],
           child: ConstrainedBox(
             constraints: BoxConstraints.expand(),
             child: FlatButton(

@@ -13,12 +13,12 @@ class Cap extends StatelessWidget{
           title: Text("Marvel's Captain Marvel Prelude" , style: TextStyle(fontWeight:  FontWeight.w300 ,fontSize: 30) ),backgroundColor: Colors.purple,
           ),new Divider(),
           ListTile(
-            title: Text("CaptainMarvel: Homepage " ,style: TextStyle(fontWeight:  FontWeight.w100,fontSize: 20 ,backgroundColor: Colors.cream)),
+            title: Text("CaptainMarvel: Homepage " ,style: TextStyle(fontWeight:  FontWeight.w100,fontSize: 20 ,backgroundColor: Colors.yellowAccent[700])),
             onTap: (){
               Navigator.push(context, new MaterialPageRoute(builder: (context) => new CM()));
             },
           ),new Divider(),ListTile(
-            title: Text("Issue #1" ,style: TextStyle(fontWeight:  FontWeight.w100,fontSize: 20 ,backgroundColor: Colors.cream)),
+            title: Text("Issue #1" ,style: TextStyle(fontWeight:  FontWeight.w100,fontSize: 20 ,backgroundColor: Colors.yellowAccent[700])),
             onTap: (){
               Navigator.push(context, new MaterialPageRoute(builder: (context) => new Ch1CM()));
             },

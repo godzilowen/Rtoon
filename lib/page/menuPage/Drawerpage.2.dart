@@ -16,18 +16,18 @@ class SpiderMan extends StatelessWidget{
           title: Text("Spider-Man: Far From Home Prelude" , style: TextStyle(fontWeight:  FontWeight.w300 ,fontSize: 30) ),backgroundColor: Colors.purple,
           ),new Divider(),
           ListTile(
-            title: Text("Spider-Man: Homepage " ,style: TextStyle(fontWeight:  FontWeight.w100,fontSize: 20 ,backgroundColor: Colors.cream)),
+            title: Text("Spider-Man: Homepage " ,style: TextStyle(fontWeight:  FontWeight.w100,fontSize: 20 ,backgroundColor: Colors.yellowAccent[700])),
             onTap: (){
               Navigator.push(context, new MaterialPageRoute(builder: (context) => new SPM()));
             },
           ),new Divider(),ListTile(
-            title: Text("Issue #2" ,style: TextStyle(fontWeight:  FontWeight.w100,fontSize: 20 ,backgroundColor: Colors.cream)),
+            title: Text("Issue #2" ,style: TextStyle(fontWeight:  FontWeight.w100,fontSize: 20 ,backgroundColor: Colors.yellowAccent[700])),
             onTap: (){
               Navigator.push(context, new MaterialPageRoute(builder: (context) => new Ch2Spidermaan()));
             },
           ),
           ListTile(
-            title: Text("Issue #1" ,style: TextStyle(fontWeight:  FontWeight.w100,fontSize: 20 ,backgroundColor: Colors.cream)),
+            title: Text("Issue #1" ,style: TextStyle(fontWeight:  FontWeight.w100,fontSize: 20 ,backgroundColor: Colors.yellowAccent[700])),
             onTap: (){
               Navigator.push(context, new MaterialPageRoute(builder: (context) => new Ch1Spidermaan()));
             },),new Divider(),
